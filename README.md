@@ -22,3 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* Commands
+rails s
+npm start --prefix client
+
+git push -u origin main
+
+npm run heroku-postbuild
+
+git push heroku main  
+
+https://ideal-streaming.herokuapp.com/
+
+
+sudo service postgresql start
+
+
