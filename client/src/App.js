@@ -1,4 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect,useRef } from "react";
+import Login from "./Login";
+import survivin from "./Bastille-survivin.mp3"
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,9 +12,19 @@ function App() {
       .then((data) => setCount(data.count));
   }, []);
 
+  const space = useRef(new Audio(survivin))
+
+function playMusic(){
+
+  space.current.play()
+  space.current.loop = true
+
+}
+
+
   return (
     <div className="App">
-      <h1>Page Count: {count}</h1>
+      <Login playMusic={playMusic}/>
     </div>
   );
 }

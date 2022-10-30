@@ -33,9 +33,22 @@ npm run heroku-postbuild
 
 git push heroku main  
 
-https://ideal-streaming.herokuapp.com/
+https://grad-chat-se-701822.herokuapp.com/
+
+or
+
+heroku open
+
+heroku run rails c
+heroku run rails db:seed
+
+
 
 
 sudo service postgresql start
+
+did not install react router
+
+awk -f script.awk  <input.txt  >output.txt
 
 
