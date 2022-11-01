@@ -24,14 +24,22 @@ Things you may want to cover:
 * ...
 
 * Commands
-rails s
-npm start --prefix client
+
+git remote add origin git@github.com:setlock10/grad-chat.git
+
 
 git push -u origin main
+
+git remote -v
+
+rails s
+npm start --prefix client
 
 npm run heroku-postbuild
 
 git push heroku main  
+
+
 
 https://grad-chat-se-701822.herokuapp.com/
 
