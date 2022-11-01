@@ -29,7 +29,6 @@
 /config/master.key
 
 #chat data
-./db/python/chat-data.json
-./db/seeds.rb
+/db/python/chat-data.json
+/db/seeds.rb
 
-*seeds.rb
